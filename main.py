@@ -10,8 +10,9 @@ from aiogram import F
 from aiogram.client.default import DefaultBotProperties
 import asyncio
 import re
+import os
 
-BOT_TOKEN = "7764315553:AAF4FwNA1Zanv22FmGru56bB67NmhTT_DnE"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 
