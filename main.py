@@ -10,7 +10,7 @@ import asyncio
 import re
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 
