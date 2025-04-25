@@ -1,5 +1,3 @@
-# API_TOKEN = '7764315553:AAF4FwNA1Zanv22FmGru56bB67NmhTT_DnE'
-
 import logging
 import pandas as pd
 from aiogram import Bot, Dispatcher, types
